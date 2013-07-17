@@ -1,0 +1,1 @@
+function [mov,frames]=conv_mov(file_name)%converts an avi movie to a MATLAB movie file%takes in a string that contains the movie name%returns the movie & the total number of framesmov=aviread(file_name);info=aviinfo(file_name);frames=info.NumFrames

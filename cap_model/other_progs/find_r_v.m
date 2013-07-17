@@ -1,0 +1,1 @@
+function F = find_r_v(r,V,w,l)%takes in values for radius, volume, valve width and length%should return zero F=pi/3*(2*r^3-(2*r^2+(w/2)^2)*(r^2-(w/2)^2)^(1/2))+(l-w)*(r^2*asin(w/(2*r))-(w/2)*(r^2-(w/2)^2)^(1/2))-V;

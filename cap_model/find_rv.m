@@ -1,0 +1,1 @@
+function F = find_rv(r,V,d)%takes in values for radius, volume, valve diameter%should return zero F=pi/24*(16*r^3-(8*r^2+d^2)*(4*r^2-d^2)^(1/2))-V;

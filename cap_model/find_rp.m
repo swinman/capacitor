@@ -1,0 +1,1 @@
+function F = find_rp(r,P,E,d)%takes in a radius, a pressure, membrane thickness, valve diameter%should return zero%multiplying by 10^6 improves the accuracy of the calculation F=4*10^6*E/d*(asin(d/(2*r))-d/(2*r))-P;

@@ -1,0 +1,1 @@
+function F = find_r_p(r,P,E,w,l)%takes in a radius, a pressure, membrane thickness, valve width and length%should return zero%multiplying by 10^6 improves the accuracy of the calculation F=2*10^6*E/w*(1+(pi*w^2)/(4*l^2-4*w*l+pi*w*l))*(asin(w/(2*r))-w/(2*r))-P;
